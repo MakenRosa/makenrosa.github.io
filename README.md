@@ -15,8 +15,8 @@
   
   <div align="center">
   <a href="https://github.com/MakenRosa">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MakenRosa&hide=contribs,prs&theme=merko"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MakenRosa&langs_count=7&theme=merko"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MakenRosa&hide=contribs,prs&theme=dark"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MakenRosa&langs_count=6&theme=dark&layout=compact&hide=Less,scss"/>
 </div>
   
   ##
