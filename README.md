@@ -2,7 +2,7 @@
   <h2>Hello, world!</h2>
 </div>
 <div>
-    <p>Meu nome é Maken Cristhian, tenho 19 anos e sou estudante de Análise e Desenvolvimento de Sistemas na Faculdade Senac, estou sempre em busca de aprendizado e crescimento, tanto pessoal quanto profissional. Caso queira entrar em contato, clique em algum dos botões abaixo e me chamem!</p>
+    <p>Meu nome é Maken Cristhian, tenho 20 anos e sou estudante de Análise e Desenvolvimento de Sistemas na Faculdade Senac, estou sempre em busca de aprendizado e crescimento, tanto pessoal quanto profissional. Caso queira entrar em contato, clique em algum dos botões abaixo e me chamem!</p>
 </div>
 <div align="center">
   <a href="https://www.linkedin.com/in/maken-da-rosa-502920232/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
