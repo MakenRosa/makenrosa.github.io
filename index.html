@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .card {
+            display: none;
+        }
+
+        .card.active {
+            display: block;
+        }
+    </style>
+    <title>Maken da Rosa - Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Maken da Rosa</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="#home">Início <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#projects">Projetos</a>
+                    <a class="nav-link" href="#contacts">Contatos</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Maken da Rosa</h1>
+
+            <p>É um prazer tê-lo aqui para conhecer um pouco do meu trabalho e das minhas habilidades.</p>
+
+            <div class="soft-skills">
+                <div class="soft-skill">Apresentação</div>
+                <div class="soft-skill"></div>
+                <div class="soft-skill"></div>
+            </div>
+
+            <div class="hard-skills">
+                <div class="hard-skill">Objetivo</div>
+                <div class="hard-skill"></div>
+                <div class="hard-skill"></div>
+            </div>
+
+        </section>
+        <section id="projects">
+            <div class="project"></div>
+            <div class="project"></div>
+            <div class="project"></div>
+        </section>
+        <section id="contacts">
+            <div class="contact"></div>
+            <div class="contact"></div>
+            <div class="contact"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2022 Software Developer. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Initialize the first card as active
+        const cards = document.querySelectorAll('.card');
+        let currentCard = 0;
+        cards[currentCard].classList.add('active');
+
+        // Add event listeners for the forward and back buttons
+        const forwardButton = document.querySelector('.btn.forward');
+        const backButton = document.querySelector('.btn.back');
+
+        forwardButton.addEventListener('click', () => {
+            cards[currentCard].classList.remove('active');
+            currentCard = (currentCard + 1) % cards.length;
+            cards[currentCard].classList.add('active');
+        });
+
+        backButton.addEventListener('click', () => {
+            cards[currentCard].classList.remove('active');
+            currentCard = (currentCard - 1 + cards.length) % cards.length;
+            cards[currentCard].classList.add('active');
+        });
+    </script>
+    <!--
+            <div class="cards-change">
+                <button class="btn back">
+                    &lt;
+                </button>
+                <button class="btn forward">
+                    &gt;
+                </button>
+                    <div class="card">
+                        <p>Este portfolio é o de sistemas e tecnologias que estão em constante evolução. Aqui você encontrará projetos que desenvolvi, demonstrando meu conhecimento em diversas linguagens de programação, frameworks e ferramentas.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <p>Como desenvolvedor júnior, estou em busca de novas oportunidades para aprimorar minhas habilidades e crescer profissionalmente. Acredito que cada projeto é uma oportunidade para aprender algo novo, enfrentar desafios e superar limitações.</p>
+                    </div>
+                    <div class="card">
+                        <p>Sinta-se à vontade para navegar pelo meu portfolio e conhecer um pouco mais sobre mim e o meu trabalho. Se você tem alguma dúvida ou gostaria de saber mais sobre algum  hesite em entrar em contato. Estou sempre aberto a novas oportunidades e desafios.</p>
+                    </div>
+                    <div class="card">
+                        <p>Espero que goste do meu portfolio e fico à disposição para qualquer esclarecimento que precise. Obrigado pela visita!</p>
+                    </div>
+            </div>
+-->
+</body>
+
+</html>
