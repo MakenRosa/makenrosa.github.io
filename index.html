@@ -4,119 +4,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--<link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="styles.css"> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <style>
-        .card {
-            display: none;
-        }
-
-        .card.active {
-            display: block;
-        }
-    </style>
     <title>Maken da Rosa - Portfolio</title>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Maken da Rosa</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" href="#home">Início <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#projects">Projetos</a>
-                    <a class="nav-link" href="#contacts">Contatos</a>
-                </div>
+            <div class="container">
+                <li class="nav-item dropdown d-block">
+                    <button class="navbar-toggler always-show" type="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#home">Início</a>
+                        <a class="dropdown-item" href="#perfil">Perfil</a>
+                        <a class="dropdown-item" href="#skills">Habilidades</a>
+                        <a class="dropdown-item" href="#qualificacoes">Qualificações</a>
+                        <a class="dropdown-item" href="#projetos">Projetos</a>
+                    </div>
+                </li>
+                <a class="navbar-brand" href="#">MR</a>
             </div>
         </nav>
     </header>
     <main>
         <section id="home">
+            <p class="portfolio-text">PORTFOLIO</p>
+            <div class="profile-img">
+                <img class=profile-img src="images/makenrosa.jpg" alt="Maken da Rosa profile image">
+            </div>
             <h1>Maken da Rosa</h1>
-
-            <p>É um prazer tê-lo aqui para conhecer um pouco do meu trabalho e das minhas habilidades.</p>
-
-            <div class="soft-skills">
-                <div class="soft-skill">Apresentação</div>
-                <div class="soft-skill"></div>
-                <div class="soft-skill"></div>
+            <p id="cargo">Software Developer Student</p>
+            <div class="redes-inicio">
+                <a href="https://github.com/MakenRosa" target="_blank"><i class="fa fa-github-square"></i></a>
+                <a href="https://www.linkedin.com/in/maken-da-rosa/" target="_blank"><i
+                        class="fa fa-linkedin-square"></i></a>
             </div>
-
-            <div class="hard-skills">
-                <div class="hard-skill">Objetivo</div>
-                <div class="hard-skill"></div>
-                <div class="hard-skill"></div>
+            <p id="ver-mais">Ver mais <i class="fa fa-angle-down"></i></p>
+        </section>
+        <section id="perfil">
+            <h2 class="section-name">&lt; PERFIL &gt;</h2>
+            <p>
+                Olá, meu nome é Maken, sou um desenvolvedor de sistemas e estudante de graduação em Análise e
+                Desenvolvimento de Sistemas. Tenho experiência com as linguagens Java e Python, além de trabalhar com o
+                banco de dados MySQL. Minhas habilidades estão principalmente em back-end, mas também possuo
+                conhecimento em HTML e CSS.
+            </p>
+            <p>
+                Desde antes do meu primeiro contato com a programação, tive uma paixão pela tecnologia e pela resolução
+                de problemas que ela nos proporciona. Comecei a programar com Python em 2018, resolvendo problemas
+                matemáticos durante o ensino médio. Desde então, decidi que desenvolver sistemas seria meu futuro.
+            </p>
+            <div class="perfil">
+                <h3>Informações</h3>
+                <div class="nome">
+                    <p>Nome:</p>
+                    <p>Maken Cristhian Faria da Rosa</p>
+                </div>
+                <div class="nascimento">
+                    <p>Nascimento:</p>
+                    <p>07 de Agosto de 2002</p>
+                </div>
+                <div class="website">
+                    <p>Website:</p>
+                    <p><a href="https://makenrosa.github.io/portfolio/"
+                            target="_blank">https://makenrosa.github.io/portfolio/</a></p>
+                </div>
+                <div class="email">
+                    <p>Email:</p>
+                    <p><a href="mailto:" target="_blank">maken.cristhian@gmail.com</a></p>
+                </div>
             </div>
-
         </section>
-        <section id="projects">
-            <div class="project"></div>
-            <div class="project"></div>
-            <div class="project"></div>
+        <section id="skills">
+            <h2 class="section-name">&lt; SKILLS &gt;</h2>
+            <p>Básico - Intermediário - Avançado</p>
+            <div class="skills">
+                <div class="skill-item">
+                    <span>Java -
+                        <progress value="70" max="100"></progress>
+                    </span>
+                </div>
+                <div class="skill-item">
+                    <span>Python -
+                        <progress value="60" max="100"></progress>
+                    </span>
+                </div>
+                <div class="skill-item">
+                    <span>HTML -
+                        <progress value="50" max="100"></progress>
+                    </span>
+                </div>
+                <div class="skill-item">
+                    <span>CSS -
+                        <progress value="50" max="100"></progress>
+                    </span>
+                </div>
+                <div class="skill-item">
+                    <span>MySQL -
+                        <progress value="50" max="100"></progress>
+                    </span>
+                </div>
+            </div>
+            <button class="btn btn-primary">ENTRE EM CONTATO</button>
+            <button class="btn btn-secondary">BAIXAR CV</button>
         </section>
-        <section id="contacts">
-            <div class="contact"></div>
-            <div class="contact"></div>
-            <div class="contact"></div>
+        <section id="qualificacoes">
+            <h2 class="section-name">&lt; QUALIFICAÇÕES &gt;</h2>
+            <div class="qualificacoes">
+                <div class="qualificacao">
+                    <h3>Experiência Profissional</h3>
+                    <div class="experiencia-profissional">
+                        <div class="empresa">
+                            <p>Empresa:</p>
+                            <p>Arquivo Contabilidade e Consultoria</p>
+                        </div>
+                        <div class="cargo">
+                            <p>Cargo:</p>
+                            <p>Estagiário de TI</p>
+                        </div>
+                        <div class="periodo">
+                            <p>Período:</p>
+                            <p>Dezembro de 2021 - Julho de 2022</p>
+                        </div>
+                        <div class="descricao">
+                            <p>Descrição:</p>
+                            <p>
+                                Atuar no setor de tecnologia da empresa realizando manutenção preventiva de máquinas,
+                                desenvolvimento de sistemas de gestão de tarefas, desenvolver o próprio conhecimento e
+                                adquirir novas experiências e habilidades para aplicação na empresa.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="qualificacao">
+                    <h3>Formação Acadêmica</h3>
+                    <div class="formacao-academica">
+                        <div class="instituicao">
+                            <p>Instituição:</p>
+                            <p>Serviço Nacional de Aprendizagem Comercial</p>
+                        </div>
+                        <div class="curso">
+                            <p>Curso:</p>
+                            <p>CST, Tecnologia em Análise e Desenvolvimento de Sistemas</p>
+                        </div>
+                        <div class="periodo">
+                            <p>Período:</p>
+                            <p>Fevereiro de 2022 - Dezembro de 2023</p>
+                        </div>
+                        <div class="descricao">
+                            <p>Descrição:</p>
+                            <p>Curso de graduação em Análise e Desenvolvimento de Sistemas.</p>
+                        </div>
+                    </div>
+            </div>
         </section>
+        <footer>
+            <p>&copy; 2022 Software Developer. All rights reserved.</p>
+        </footer>
     </main>
-    <footer>
-        <p>&copy; 2022 Software Developer. All rights reserved.</p>
-    </footer>
-
-    <script>
-        // Initialize the first card as active
-        const cards = document.querySelectorAll('.card');
-        let currentCard = 0;
-        cards[currentCard].classList.add('active');
-
-        // Add event listeners for the forward and back buttons
-        const forwardButton = document.querySelector('.btn.forward');
-        const backButton = document.querySelector('.btn.back');
-
-        forwardButton.addEventListener('click', () => {
-            cards[currentCard].classList.remove('active');
-            currentCard = (currentCard + 1) % cards.length;
-            cards[currentCard].classList.add('active');
-        });
-
-        backButton.addEventListener('click', () => {
-            cards[currentCard].classList.remove('active');
-            currentCard = (currentCard - 1 + cards.length) % cards.length;
-            cards[currentCard].classList.add('active');
-        });
-    </script>
-    <!--
-            <div class="cards-change">
-                <button class="btn back">
-                    &lt;
-                </button>
-                <button class="btn forward">
-                    &gt;
-                </button>
-                    <div class="card">
-                        <p>Este portfolio é o de sistemas e tecnologias que estão em constante evolução. Aqui você encontrará projetos que desenvolvi, demonstrando meu conhecimento em diversas linguagens de programação, frameworks e ferramentas.
-                        </p>
-                    </div>
-                    <div class="card">
-                        <p>Como desenvolvedor júnior, estou em busca de novas oportunidades para aprimorar minhas habilidades e crescer profissionalmente. Acredito que cada projeto é uma oportunidade para aprender algo novo, enfrentar desafios e superar limitações.</p>
-                    </div>
-                    <div class="card">
-                        <p>Sinta-se à vontade para navegar pelo meu portfolio e conhecer um pouco mais sobre mim e o meu trabalho. Se você tem alguma dúvida ou gostaria de saber mais sobre algum  hesite em entrar em contato. Estou sempre aberto a novas oportunidades e desafios.</p>
-                    </div>
-                    <div class="card">
-                        <p>Espero que goste do meu portfolio e fico à disposição para qualquer esclarecimento que precise. Obrigado pela visita!</p>
-                    </div>
-            </div>
--->
 </body>
 
 </html>
