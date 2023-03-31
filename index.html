@@ -19,7 +19,7 @@
             <div class="container">
                 <li class="nav-item dropdown d-block">
                     <button class="navbar-toggler always-show" type="button" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
+                        aria-expanded="false" title="menu">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="dropdown-menu">
@@ -28,6 +28,7 @@
                         <a class="dropdown-item" href="#skills">Habilidades</a>
                         <a class="dropdown-item" href="#qualificacoes">Qualificações</a>
                         <a class="dropdown-item" href="#projetos">Projetos</a>
+                        <a class="dropdown-item" href="#contato">Contato</a>
                     </div>
                 </li>
                 <a class="navbar-brand" href="#">MR</a>
@@ -89,12 +90,12 @@
             <div class="skills">
                 <div class="skill-item">
                     <span>Java -
-                        <progress value="70" max="100"></progress>
+                        <progress value="65" max="100"></progress>
                     </span>
                 </div>
                 <div class="skill-item">
                     <span>Python -
-                        <progress value="60" max="100"></progress>
+                        <progress value="55" max="100"></progress>
                     </span>
                 </div>
                 <div class="skill-item">
@@ -113,8 +114,9 @@
                     </span>
                 </div>
             </div>
-            <button class="btn btn-primary">ENTRE EM CONTATO</button>
-            <button class="btn btn-secondary">BAIXAR CV</button>
+            <a href="#contato"><button class="btn btn-primary">ENTRE EM CONTATO</button></a>
+            <a href="documentos/MAKEN CRISTHIAN FARIA DA ROSA.pdf" download><button class="btn btn-secondary">BAIXAR
+                    CV</button></a>
         </section>
         <section id="qualificacoes">
             <h2 class="section-name">&lt; QUALIFICAÇÕES &gt;</h2>
@@ -170,35 +172,29 @@
             <h2 class="section-name">&lt; PROJETOS &gt;</h2>
             <div class="projetos">
                 <div class="projeto">
-                    <h3>Projeto 1</h3>
-                    <div class="project-image">
-                        <img src="https://via.placeholder.com/300x200" alt="Projeto 1">
+                    <div class="container">
+                        <h3>Projeto Cordel</h3>
+                        <div class="image-container"><img src="images/projeto-cordel.png" alt="Projeto Cordel"></div>
+                        <p>O projeto Cordel é um mini-projeto desenvolvido durante o curso de HTML e CSS do professor Gustavo Guanabara</p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias consequuntur nam vero in
-                        ducimus odio non, quae similique ea est quia impedit ullam obcaecati fugit maiores incidunt
-                        perferendis eveniet!</p>
                     <button class="btn btn-primary">Ver Projeto</button>
                     <button class="btn btn-secondary">Ver Código</button>
                 </div>
                 <div class="projeto">
-                    <h3>Projeto 2</h3>
-                    <div class="project-image">
-                        <img src="https://via.placeholder.com/300x200" alt="Projeto 2">
+                    <div class="container">
+                        <h3>Projeto Redes Sociais</h3>
+                        <div class="image-container"><img src="images/projeto-redes-sociais.png" alt="Projeto Redes Sociais"></div>
+                        <p>O projeto redes sociais é um projeto utilizando iFrames, desenvolvido durante o curso de HTML5 e CSS3 do professor Gustavo Guanabara</p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias consequuntur nam vero in
-                        ducimus odio non, quae similique ea est quia impedit ullam obcaecati fugit maiores incidunt
-                        perferendis eveniet!</p>
                     <button class="btn btn-primary">Ver Projeto</button>
                     <button class="btn btn-secondary">Ver Código</button>
                 </div>
                 <div class="projeto">
-                    <h3>Projeto 3</h3>
-                    <div class="project-image">
-                        <img src="https://via.placeholder.com/300x200" alt="Projeto 3">
+                    <div class="container">
+                        <h3>Projeto Login</h3>
+                        <div class="image-container"><img src="images/projeto-login.png" alt="Projeto Login"></div>
+                        <p>O projeto login é um projeto completo de tela de login criado pelo Professor Gustavo Guanabara como parte do Curso em Vídeo de HTML5 e CSS3 </p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias consequuntur nam vero in
-                        ducimus odio non, quae similique ea est quia impedit ullam obcaecati fugit maiores incidunt
-                        perferendis eveniet!</p>
                     <button class="btn btn-primary">Ver Projeto</button>
                     <button class="btn btn-secondary">Ver Código</button>
                 </div>
@@ -213,35 +209,39 @@
                     <input type="text" name="subject" placeholder="Assunto">
                     <textarea name="message" required placeholder="Mensagem *"></textarea>
                     <button class="btn btn-primary" type="submit">ENVIAR</button>
-                           </form>
+                </form>
             </div>
-           <div class="contato">
-            <p>
-                Você também pode entrar em contato comigo através dos seguintes meios:
-            </p>
-            <ul>
-                <li>
-                    <!--Email-->
-                    <a href="mailto: maken.cristhian@gmail.com">
-                        <i class="fa fa-envelope"></i>
-                        maken.cristhian@gmail.com
-                <li>
-                    <a href="https://wa.me/5548991557364" target="_blank">
-                        <i class="fa fa-whatsapp"></i>
-                        (48) 99155-7364
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/maken-da-rosa/" target="_blank">
-                        <i class="fa fa-linkedin"></i>
-                        linkedin.com/in/maken-da-rosa
-                    </a>
-                </li>
-                
-        <footer>
-            <p>&copy; 2022 Software Developer. All rights reserved.</p>
-        </footer>
+            <div class="contato">
+                <p>
+                    Você também pode entrar em contato comigo através dos seguintes meios:
+                </p>
+                <ul>
+                    <li>
+                        <!--Email-->
+                        <a href="mailto: maken.cristhian@gmail.com">
+                            <i class="fa fa-envelope"></i>
+                            maken.cristhian@gmail.com
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/5548991557364" target="_blank">
+                            <i class="fa fa-whatsapp"></i>
+                            (48) 99155-7364
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/maken-da-rosa/" target="_blank">
+                            <i class="fa fa-linkedin"></i>
+                            linkedin.com/in/maken-da-rosa
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
+    <footer>
+                    <p>&copy; 2022 Software Developer. All rights reserved.</p>
+                </footer>
 </body>
 
 </html>

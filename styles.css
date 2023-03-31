@@ -2,6 +2,10 @@
     display: block !important;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -10,19 +14,12 @@ body {
     scroll-behavior: smooth;
 }
 
-.card {
-    display: none;
-}
-
-.card.active {
-    display: block;
-}
-
 header {
     position: fixed;
     top: 0;
     left: 20vw;
     width: 170px;
+    z-index: 3;
 }
 
 .navbar li {
@@ -62,9 +59,9 @@ h2.section-name {
 .section-name::after {
     content: '';
     display: block;
-    width: 60%;
+    width: 70%;
     height: 2px;
-    background-color: #460000;
+    background-color: #000000;
     margin: 5px auto;
 }
 
@@ -173,14 +170,226 @@ div.perfil > div >p:first-child {
 div.perfil > div >p:last-child {
     font-size: 14px;
     margin-bottom: 5px;
-    color: #636363;
+    color: #454545;
 }
 
 div.perfil > div a {
     font-size: 14px;
     margin-bottom: 5px;
-    color: #636363;
+    color: #454545;
 }
+
+section#skills {
+    background-color: #303030;
+    color: #ffffff;
+    text-align: center;
+    height: 100%;
+}
+
+#skills > .section-name::after {
+    background-color: #ffffff;
+}
+
+#skills > p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    margin-top: 30px;
+    text-align: center;
+    word-spacing: 15px;
+}
+
+#skills .skill-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#skills .skill-item > span {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 15px 0;
+    text-align: left;
+    width: 100%;
+}
+
+#skills .skill-item > span > progress {
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+#qualificacoes > .section-name{
+    font-size: 30px;
+}
+
+div.qualificacao {
+    display: block;
+    text-align: left;
+    margin-top: 60px;
+}
+
+div.qualificacao > h3 {
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 10px 0 50px 0px;
+    text-align: center;
+}
+
+div.qualificacao > div {
+    margin: 0 0 20px 0;
+}
+
+div > div > p:first-child {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+div > div > p:last-child {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #454545;
+}
+
+#projetos {
+    background-color: #303030;
+    color: #ffffff;
+    text-align: center;
+    height: 100%;
+}
+
+
+#projetos > .section-name::after {
+    background-color: #ffffff;
+}
+
+.projetos .projeto .container{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    margin: 50px auto 20px auto;
+    padding: 0px;
+}
+
+.projeto .container .image-container  img {
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(50%) blur(1px);
+}
+
+.projeto .container h3 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 10px 0 50px 0px;
+    text-align: center;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.projeto .container p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    width: 85%;
+    margin: 0px;
+}
+
+.projeto >.container> a {
+    padding: 10px 20px;
+}
+
+#contato {
+    text-align: center;
+    height: 100%;
+    padding-bottom: 0;
+}
+
+.contato {
+    margin-top: 50px;
+}
+
+.contato > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.contato > form > input, .contato > form > textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-bottom: 2px solid #000000;
+}
+
+
+.contato > form > textarea {
+    resize: none;
+    height: 50px;
+}
+
+.contato > form > input:focus, .contato > form > textarea:focus {
+    outline: none;
+    border-bottom: 2px solid #54bfe9;
+}
+
+.contato > form > button[type="submit"] {
+    background-color: #54bfe9;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.contato > p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contato > ul {
+    list-style: none;
+    font-size: 16px;
+    padding: 0px;
+    text-align: center;
+}
+
+.contato > ul > li {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #303030;
+    color: #ffffff;
+    text-align: center;
+    height: 100%;
+    padding: 20px 0;
+}
+
 
 @media (min-width: 768px) {
     .navbar>.container {
