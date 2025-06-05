@@ -1,398 +1,105 @@
-.always-show {
-    display: block !important;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: #f5f5f5;
-    scroll-behavior: smooth;
+    box-sizing: border-box;
 }
-
+body {
+    font-family: 'Inter', sans-serif;
+    color: #222;
+    background-color: #fafafa;
+    line-height: 1.6;
+}
 header {
-    position: fixed;
+    background: #222;
+    color: #fff;
+    padding: 10px 20px;
+    position: sticky;
     top: 0;
-    left: 20vw;
-    width: 170px;
-    z-index: 3;
+    z-index: 10;
 }
-
-.navbar li {
-    list-style: none;
-}
-
-.navbar li > button {
-    border: none;
-}
-
-.navbar li > button:hover {
-    background-color: transparent;
-}
-
-.navbar li > button:focus {
-    outline: none;
-}
-
-.navbar>.container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-section {
-    font-family: 'poppins', sans-serif;
-    padding: 80px 20px;
-}
-
-h2.section-name {
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 20px 0;
-}
-
-.section-name::after {
-    content: '';
-    display: block;
-    width: 70%;
-    height: 2px;
-    background-color: #000000;
-    margin: 5px auto;
-}
-
-#home {
-    background-color: #636363;
-    color: #fff;
-    padding: 80px 20px;
-    text-align: center;
-    height: 100vh;
-}
-
-.portfolio-text {
-    font-weight: 700;
-    margin-bottom: 40px;
-    color: #460000;
-    letter-spacing: 2px;
-    font-family: monospace;
-}
-
-#home>h1 {
-    font-size: 40px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin: 20px 0;
-}
-
-
-div.profile-img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin: 0 auto;
-    display: block;
-}
-
-img.profile-img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin: 0 auto;
-    border: 5px solid #460000;
-}
-
-#home>#cargo {
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    margin: 20px 0;
-    width: 70%;
-    margin: 0 auto;
-}
-
-.redes-inicio {
-    display: flex;
-    justify-content: center;
-    margin-top: 35px;
-}
-
-.redes-inicio a {
-    color: #fff;
-    font-size: 40px;
-    margin: 0 30px;
-}
-
-#ver-mais {
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    margin: 20px 0;
-    margin-top: 50px;
-}
-
-#perfil {
-    background-color: #fff;
-    color: #000;
-    text-align: center;
-    height: 100%;
-}
-
-div.perfil {
-    display: block;
-    text-align: left;
-    margin-top: 60px;
-}
-
-div.perfil > h3 {
-    font-size: 25px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin: 10px 0 50px 0px;
-    text-align: center;
-}
-
-div.perfil > div {
-    margin: 0 0 20px 0;
-}
-
-div.perfil > div >p:first-child {
-    font-weight: bold;
-    font-size: 16px;
-    margin-bottom: 5px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-div.perfil > div >p:last-child {
-    font-size: 14px;
-    margin-bottom: 5px;
-    color: #454545;
-}
-
-div.perfil > div a {
-    font-size: 14px;
-    margin-bottom: 5px;
-    color: #454545;
-}
-
-section#skills {
-    background-color: #303030;
-    color: #ffffff;
-    text-align: center;
-    height: 100%;
-}
-
-#skills > .section-name::after {
-    background-color: #ffffff;
-}
-
-#skills > p {
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    margin: 20px 0;
-    margin-top: 30px;
-    text-align: center;
-    word-spacing: 15px;
-}
-
-#skills .skill-item {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 0;
+    max-width: 960px;
+    margin: 0 auto;
 }
-
-#skills .skill-item > span {
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    margin: 15px 0;
-    text-align: left;
-    width: 100%;
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
 }
-
-#skills .skill-item > span > progress {
-    width: 100%;
-    height: 10px;
-    border-radius: 5px;
-    background-color: #ffffff;
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
 }
-
-#qualificacoes > .section-name{
-    font-size: 30px;
-}
-
-div.qualificacao {
-    display: block;
-    text-align: left;
-    margin-top: 60px;
-}
-
-div.qualificacao > h3 {
-    font-size: 25px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin: 10px 0 50px 0px;
+.hero {
+    padding: 80px 20px;
     text-align: center;
+    background: #4b4b4b;
+    color: #fff;
 }
-
-div.qualificacao > div {
-    margin: 0 0 20px 0;
-}
-
-div > div > p:first-child {
-    font-weight: bold;
-    font-size: 16px;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-}
-
-div > div > p:last-child {
-    font-size: 16px;
-    margin-bottom: 20px;
-    color: #454545;
-}
-
-#projetos {
-    background-color: #303030;
-    color: #ffffff;
-    text-align: center;
-    height: 100%;
-}
-
-
-#projetos > .section-name::after {
-    background-color: #ffffff;
-}
-
-.projetos .projeto .container{
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    margin: 50px auto 20px auto;
-    padding: 0px;
-}
-
-.projeto .container .image-container  img {
-    width: 100%;
+.avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
     object-fit: cover;
-    filter: brightness(50%) blur(1px);
+    border: 4px solid #fff;
 }
-
-.projeto .container h3 {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    font-size: 25px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin: 10px 0 50px 0px;
-    text-align: center;
-    color: #ffffff;
-    z-index: 2;
+.subtitle {
+    margin: 10px 0 20px;
 }
-
-.projeto .container p {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 14px;
-    font-weight: 400;
-    color: #ffffff;
-    width: 85%;
-    margin: 0px;
+.hero-links a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
 }
-
-.projeto >.container> a {
-    padding: 10px 20px;
+section {
+    padding: 60px 20px;
+    max-width: 960px;
+    margin: 0 auto;
 }
-
-#contato {
-    text-align: center;
-    height: 100%;
-    padding-bottom: 0;
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
 }
-
-.contato {
-    margin-top: 50px;
-}
-
-.contato > form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.contato > form > input, .contato > form > textarea {
-    width: 100%;
-    margin: 10px 0;
-    padding: 10px;
-    background-color: #ffffff;
-    color: #000000;
-    border: none;
-    border-bottom: 2px solid #000000;
-}
-
-
-.contato > form > textarea {
-    resize: none;
-    height: 50px;
-}
-
-.contato > form > input:focus, .contato > form > textarea:focus {
-    outline: none;
-    border-bottom: 2px solid #54bfe9;
-}
-
-.contato > form > button[type="submit"] {
-    background-color: #54bfe9;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 20px;
-    cursor: pointer;
-}
-
-.contato > p {
-    font-size: 16px;
-    font-weight: 400;
-    margin: 20px 0;
-    margin-top: 30px;
-    text-align: center;
-}
-
-.contato > ul {
+.timeline {
     list-style: none;
-    font-size: 16px;
-    padding: 0px;
+    padding-left: 0;
+}
+.timeline li {
+    margin-bottom: 20px;
+}
+.grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.card {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 15px;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
-
-.contato > ul > li {
-    margin: 10px 0;
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
 }
-
+.links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
 footer {
-    background-color: #303030;
-    color: #ffffff;
+    background: #222;
+    color: #fff;
     text-align: center;
-    height: 100%;
-    padding: 20px 0;
-}
-
-
-@media (min-width: 768px) {
-    .navbar>.container {
-        padding: 0px;
-    }
+    padding: 20px;
 }
