@@ -40,7 +40,7 @@ nav {
     background: #4b4b4b;
     color: #fff;
 }
-.avatar {
+.hero .avatar {
     width: 160px;
     height: 160px;
     border-radius: 50%;
@@ -107,6 +107,7 @@ nav {
     text-align: center;
 }
 .manifesto-content h2 {
+    color: #f1f5f9;
     margin-bottom: 12px;
 }
 .manifesto-text {
