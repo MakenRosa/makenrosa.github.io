@@ -56,6 +56,102 @@ nav {
     text-decoration: none;
     font-weight: 600;
 }
+.manifesto {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    background: #101010;
+    color: #f5f5f5;
+    padding: 70px 20px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+}
+.manifesto-visual {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.avatar-wrapper {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    isolation: isolate;
+}
+.neon-avatar {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.4), 0 0 30px rgba(138, 43, 226, 0.25);
+    filter: grayscale(12%);
+}
+.avatar-overlay {
+    content: "";
+    position: absolute;
+    inset: -6px;
+    border-radius: 50%;
+    background: conic-gradient(from 120deg, rgba(0, 255, 255, 0.5), rgba(138, 43, 226, 0.55), rgba(255, 105, 180, 0.45), rgba(0, 255, 255, 0.5));
+    mix-blend-mode: screen;
+    filter: blur(12px);
+    opacity: 0.9;
+    z-index: 0;
+    pointer-events: none;
+}
+.manifesto-caption {
+    font-size: 0.95rem;
+    color: #cfd8dc;
+    text-align: center;
+}
+.manifesto-content h2 {
+    margin-bottom: 12px;
+}
+.manifesto-text {
+    margin-bottom: 18px;
+    color: #e8eaf6;
+}
+.pillars {
+    list-style: none;
+    display: grid;
+    gap: 16px;
+    margin-bottom: 18px;
+}
+.pillars h3 {
+    color: #7ce7ff;
+    font-size: 1.05rem;
+}
+.pillars p {
+    color: #d1d5db;
+}
+.skills {
+    display: grid;
+    gap: 14px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.skills h4 {
+    margin-bottom: 8px;
+    color: #9be7ff;
+}
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: #fefefe;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(2px);
+}
 section {
     padding: 60px 20px;
     max-width: 960px;
