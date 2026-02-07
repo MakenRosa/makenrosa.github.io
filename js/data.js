@@ -1,18 +1,18 @@
-const portfolioData = {
+﻿const portfolioData = {
     profile: {
         name: "Maken da Rosa",
         role: {
-            en: "Full Stack Developer & AI Enthusiast",
-            pt: "Desenvolvedor Full Stack & Entusiasta de IA"
+            en: "Full-stack Developer + AI | LLM/RAG, AWS, React/TypeScript",
+            pt: "Desenvolvedor Full-stack + IA | LLM/RAG, AWS, React/TypeScript"
         },
         summary: {
-            en: "I am a Full Stack Developer focused on web applications and an Artificial Intelligence enthusiast. Currently working as a Software Developer at NEXTI, contributing to front-end refactoring and AI initiatives. I have experience with React, TypeScript, Python, and Java, always seeking continuous learning and professional evolution.",
-            pt: "Sou um Desenvolvedor Full Stack focado em aplicações web e entusiasta de Inteligência Artificial. Atualmente atuo como Software Developer na NEXTI, contribuindo para refatoração de front-end e iniciativas de IA. Tenho experiência com React, TypeScript, Python e Java, sempre buscando aprendizado contínuo e evolução profissional."
+            en: "Technology has always been the thread of my journey, from tinkering with computers to building scalable web and AI solutions. At NEXTI, I evolved from front-end intern to software developer. I delivered an AI Level 1 support assistant that can resolve up to 50% of tickets before human support, while keeping inference cost under US$15/month.",
+            pt: "Tecnologia sempre foi o fio condutor da minha jornada, desde explorar computadores ate construir solucoes web e IA escalaveis. Na NEXTI, evolui de estagiario front-end para software developer. Entreguei um assistente de suporte IA nivel 1 capaz de resolver ate 50% dos chamados antes do atendimento humano, mantendo custo de inferencia abaixo de US$15/mes."
         },
-        location: "Brazil",
+        location: "Sao Jose, SC - Brazil",
         social: {
-            linkedin: "https://www.linkedin.com/in/maken-rosa",
-            github: "https://github.com/makenrosa",
+            linkedin: "https://www.linkedin.com/in/maken-da-rosa/",
+            github: "https://github.com/MakenRosa",
             email: "mailto:maken.cristhian@gmail.com"
         }
     },
@@ -20,16 +20,16 @@ const portfolioData = {
         {
             company: "NEXTI",
             role: {
-                en: "Full Stack Developer",
-                pt: "Desenvolvedor Full Stack"
+                en: "Software Developer",
+                pt: "Software Developer"
             },
             period: {
-                en: "Apr 2025 – Present",
-                pt: "Abr 2025 – Atual"
+                en: "Jan 2025 - Present",
+                pt: "Jan 2025 - Atual"
             },
             description: {
-                en: "Full stack development, creating solutions and exploring artificial intelligence applications.",
-                pt: "Atuação full stack, desenvolvendo soluções e explorando aplicações de inteligência artificial."
+                en: "Implemented an AI-powered L1 support assistant for hundreds of clients, automating around 50% of tickets before human support. Built ingestion, classification, and summarization pipelines using AWS Bedrock, Pinecone, Lambda, Step Functions, SAM, and Jenkins.",
+                pt: "Implementei um assistente de suporte L1 com IA para centenas de clientes, automatizando cerca de 50% dos chamados antes do atendimento humano. Construi pipelines de ingestao, classificacao e sumarizacao com AWS Bedrock, Pinecone, Lambda, Step Functions, SAM e Jenkins."
             }
         },
         {
@@ -39,42 +39,42 @@ const portfolioData = {
                 pt: "Desenvolvedor Front-end"
             },
             period: {
-                en: "Jan 2024 – Apr 2025",
-                pt: "Jan 2024 – Abr 2025"
+                en: "Jan 2024 - Jan 2025",
+                pt: "Jan 2024 - Jan 2025"
             },
             description: {
-                en: "Development and maintenance of the design system in React, integrations, and module rewriting using TypeScript.",
-                pt: "Desenvolvimento e manutenção do design system em React, integrações e reescrita de módulos utilizando TypeScript."
+                en: "Rewrote a critical AngularJS module into a modular React/TypeScript solution with lazy loading, improving time-to-interaction by over 80% and reaching over 80% unit-test coverage. Worked with design system components and BFF integration.",
+                pt: "Reescrevi um modulo critico em AngularJS para uma solucao modular React/TypeScript com lazy loading, melhorando o time-to-interaction em mais de 80% e alcancando mais de 80% de cobertura de testes unitarios. Atuei com componentes de design system e integracao via BFF."
             }
         },
         {
             company: "NEXTI",
             role: {
-                en: "Front-end Intern",
-                pt: "Estagiário Front-end"
+                en: "Front-end Development Intern",
+                pt: "Estagiario de Desenvolvimento Front-end"
             },
             period: {
-                en: "Apr 2023 – Jan 2024",
-                pt: "Abr 2023 – Jan 2024"
+                en: "Apr 2023 - Dec 2023",
+                pt: "Abr 2023 - Dez 2023"
             },
             description: {
-                en: "Initial immersion in the development team, assisting with front-end tasks and learning the company's ecosystem.",
-                pt: "Imersão inicial na equipe de desenvolvimento, auxiliando em tarefas de front-end e aprendendo o ecossistema da empresa."
+                en: "Supported front-end feature development and maintenance, componentization, automated tests, and Kanban-based delivery in the product team.",
+                pt: "Apoiei desenvolvimento e manutencao de features front-end, componentizacao, testes automatizados e entregas com metodologia Kanban no time de produto."
             }
         },
         {
-            company: "Arquivo Contábil",
+            company: "Arquivo Contabil",
             role: {
                 en: "IT Intern",
-                pt: "Estagiário de TI"
+                pt: "Estagiario de TI"
             },
             period: {
-                en: "Dec 2021 – Jul 2022",
-                pt: "Dez 2021 – Jul 2022"
+                en: "Dec 2021 - Jul 2022",
+                pt: "Dez 2021 - Jul 2022"
             },
             description: {
-                en: "Support in machine maintenance and development of Python solutions to optimize internal processes.",
-                pt: "Suporte na manutenção de máquinas e desenvolvimento de soluções em Python para otimizar processos internos."
+                en: "Performed preventive maintenance and delivered internal task-management tooling.",
+                pt: "Atuei com manutencao preventiva e desenvolvimento de ferramentas internas de gerenciamento de tarefas."
             }
         }
     ],
@@ -82,107 +82,110 @@ const portfolioData = {
         {
             title: {
                 en: "Operations Desk Refactor",
-                pt: "Refatoração da Mesa de Operações"
+                pt: "Refatoracao da Mesa de Operacoes"
             },
             description: {
-                en: "Contributed to the rewrite of the 'Mesa de Operações' module for NEXTI, migrating the interface to React to improve performance and maintainability.",
-                pt: "Participei da reescrita do módulo 'Mesa de Operações' da plataforma da NEXTI, migrando a interface para React a fim de melhorar a performance e a manutenibilidade."
+                en: "Migration of a legacy AngularJS module to React/TypeScript with modular architecture and lazy loading, improving user-perceived performance and maintainability.",
+                pt: "Migracao de um modulo legado em AngularJS para React/TypeScript com arquitetura modular e lazy loading, melhorando performance percebida e manutenibilidade."
             },
-            tags: ["React", "TypeScript", "Node.js", "Legacy Migration"],
-            link: null // Professional project, no link
+            tags: ["React", "TypeScript", "BFF", "Legacy Migration"],
+            link: null
         },
         {
             title: {
-                en: "Level 1 AI Support",
-                pt: "Atendimento IA Nível 1"
+                en: "AI Level 1 Support Assistant",
+                pt: "Assistente IA de Suporte Nivel 1"
             },
             description: {
-                en: "Fully developed the Level 1 AI support flow for NEXTI using OpenAI SDKs and AWS Infrastructure, achieving over 25% ticket resolution with a monthly cost under $15.",
-                pt: "Desenvolvi integralmente o fluxo de atendimento com IA de nível 1 para a NEXTI utilizando SDKs da OpenAI e infraestrutura AWS, alcançando mais de 25% de resolução de chamados com um custo mensal inferior a 15 dólares."
+                en: "Designed and delivered an AI support flow that resolves up to 50% of tickets before human escalation, with monthly inference cost below US$15.",
+                pt: "Desenhei e entreguei um fluxo de suporte com IA que resolve ate 50% dos chamados antes de escalar para humano, com custo de inferencia mensal abaixo de US$15."
             },
-            tags: ["AI", "LLM", "Automation", "Python"],
-            link: null // Professional project, no link
+            tags: ["LLM", "RAG", "AWS Bedrock", "Pinecone", "Lambda"],
+            link: null
         },
         {
             title: {
-                en: "makenrosa.site",
-                pt: "makenrosa.site"
+                en: "Professional Portfolio Hub",
+                pt: "Hub Profissional de Portfolio"
             },
             description: {
-                en: "Personal website with utilities created to facilitate my daily tasks, including tools for both work and games.",
-                pt: "Site pessoal onde criei algumas coisinhas utilitárias para facilitar meu dia a dia, incluindo ferramentas tanto para trabalho quanto para jogos."
+                en: "Centralized portfolio that presents experience, impact metrics, and curated project cases.",
+                pt: "Portfolio centralizado que apresenta experiencia, metricas de impacto e casos de projeto curados."
             },
-            tags: ["Web", "Utilities", "Personal"],
-            link: "https://makenrosa.site/"
+            tags: ["Portfolio", "Web", "Branding"],
+            link: "https://makenrosa.github.io/"
         }
     ],
     skills: [
-        "JavaScript", "TypeScript", "Python", "Java",
-        "React", "HTML5", "CSS3", "MySQL", "Node.js", "AWS",
-        "Git", "GitHub", "AI Integration"
+        "React", "TypeScript", "JavaScript", "Python", "Java",
+        "AWS Bedrock", "RAG", "Pinecone", "Lambda", "Step Functions",
+        "Jenkins", "Docker", "PostgreSQL", "MySQL"
     ],
     education: [
         {
-            institution: "Unisul",
+            institution: "Universidade do Sul de Santa Catarina (UNISUL)",
             degree: {
-                en: "Postgraduate in AI & Data Science",
-                pt: "Pós-graduação em IA e Ciência de Dados"
+                en: "Postgraduate Certificate (AI and Data-related modules)",
+                pt: "Pos-graduacao (modulos de IA e dados)"
             },
             period: {
-                en: "Jan 2025 – Dec 2025",
-                pt: "Jan 2025 – Dez 2025"
-            },
-            status: {
-                en: "In Progress",
-                pt: "Em Andamento"
-            }
-        },
-        {
-            institution: "Senac SC",
-            degree: {
-                en: "Systems Analysis and Development",
-                pt: "Análise e Desenvolvimento de Sistemas"
-            },
-            period: {
-                en: "Jul 2021 – Mar 2023",
-                pt: "Jul 2021 – Mar 2023"
+                en: "Jan 2025 - Dec 2025",
+                pt: "Jan 2025 - Dez 2025"
             },
             status: {
                 en: "Completed",
-                pt: "Concluído"
+                pt: "Concluido"
+            }
+        },
+        {
+            institution: "Senac Santa Catarina",
+            degree: {
+                en: "CST in Systems Analysis and Development",
+                pt: "CST em Analise e Desenvolvimento de Sistemas"
+            },
+            period: {
+                en: "2022 - 2023",
+                pt: "2022 - 2023"
+            },
+            status: {
+                en: "Completed",
+                pt: "Concluido"
             }
         }
     ],
     certifications: [
-        "Web Development (HTML5, CSS3, JS, PHP) - Curso em Vídeo",
-        "Python Programming (World 1, 2, 3) - Curso em Vídeo",
-        "IT Infrastructure (Hardware, Networks) - Curso em Vídeo"
+        "MCP na Pratica: Crie Agentes e Multi-Agentes com LLMs - Udemy",
+        "AI Automation: Build LLM Apps and AI-Agents with n8n and APIs - Udemy",
+        "LangChain: Crie agents com Rag e IA Generativa - Udemy",
+        "Engenharia, Preparacao e Visualizacao de Dados - UNISUL",
+        "React JS: testes com Jest e Testing Library - Alura",
+        "Docker: criando e gerenciando containers - Alura"
     ],
     ui: {
         nav: {
-            home: { en: "Home", pt: "Início" },
+            home: { en: "Home", pt: "Inicio" },
             about: { en: "About", pt: "Sobre" },
-            experience: { en: "Experience", pt: "Experiência" },
+            experience: { en: "Experience", pt: "Experiencia" },
             projects: { en: "Projects", pt: "Projetos" },
             skills: { en: "Skills", pt: "Habilidades" },
             contact: { en: "Contact", pt: "Contato" }
         },
         hero: {
-            greeting: { en: "Hello, I'm", pt: "Olá, eu sou" },
-            role_suffix: { en: "Full Stack Developer", pt: "Desenvolvedor Full Stack" },
+            greeting: { en: "Hello, I'm", pt: "Ola, eu sou" },
+            role_suffix: { en: "Full-stack Developer + AI", pt: "Desenvolvedor Full-stack + IA" },
             description: {
-                en: "Full Stack Developer & AI Enthusiast building the future of web applications with modern technologies.",
-                pt: "Desenvolvedor Full Stack & Entusiasta de IA construindo o futuro das aplicações web com tecnologias modernas."
+                en: "I deliver scalable web and AI solutions with measurable impact on product performance and support operations.",
+                pt: "Entrego solucoes web e IA escalaveis com impacto mensuravel em performance de produto e operacao de suporte."
             },
-            view_work: { en: "View Work", pt: "Ver Projetos" },
+            view_work: { en: "View Projects", pt: "Ver Projetos" },
             contact_me: { en: "Contact Me", pt: "Me Contate" }
         },
         sections: {
             about: { en: "About Me", pt: "Sobre Mim" },
-            experience: { en: "Experience", pt: "Experiência" },
+            experience: { en: "Experience", pt: "Experiencia" },
             projects: { en: "Projects", pt: "Projetos" },
             skills: { en: "Skills & Technologies", pt: "Habilidades & Tecnologias" },
-            education: { en: "Education", pt: "Formação" },
+            education: { en: "Education", pt: "Formacao" },
             contact: { en: "Let's Connect", pt: "Vamos Conversar" }
         },
         footer: {
