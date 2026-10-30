@@ -6,8 +6,8 @@
             pt: "Desenvolvedor Full-stack + IA | LLM/RAG, AWS, React/TypeScript"
         },
         summary: {
-            en: "Technology has always been the thread of my journey, from tinkering with computers to building scalable web and AI solutions. At NEXTI, I evolved from front-end intern to software developer. I delivered an AI Level 1 support assistant that can resolve up to 50% of tickets before human support, while keeping inference cost under US$15/month.",
-            pt: "Tecnologia sempre foi o fio condutor da minha jornada, desde explorar computadores até construir soluções web e IA escaláveis. Na NEXTI, evoluí de estagiário front-end para software developer. Entreguei um assistente de suporte IA nível 1 capaz de resolver até 50% dos chamados antes do atendimento humano, mantendo custo de inferência abaixo de US$15/mês."
+            en: "I work on frontend development, API integration, and practical AI applications. My portfolio presents technical contributions and general engineering concepts while keeping company information private.",
+            pt: "Atuo com desenvolvimento frontend, integração de APIs e aplicações práticas de IA. Meu portfólio apresenta contribuições técnicas e conceitos gerais de engenharia, preservando informações das empresas."
         },
         location: "São José, SC - Brasil",
         social: {
@@ -28,8 +28,8 @@
                 pt: "Jan 2025 - Atual"
             },
             description: {
-                en: "Implemented an AI-powered L1 support assistant for hundreds of clients, automating around 50% of tickets before human support. Built ingestion, classification, and summarization pipelines using AWS Bedrock, Pinecone, Lambda, Step Functions, SAM, and Jenkins.",
-                pt: "Implementei um assistente de suporte L1 com IA para centenas de clientes, automatizando cerca de 50% dos chamados antes do atendimento humano. Construí pipelines de ingestão, classificação e sumarização com AWS Bedrock, Pinecone, Lambda, Step Functions, SAM e Jenkins."
+                en: "Contributed with a team to the evolution of an existing AI solution, including Python integrations, content preparation for retrieval, integration with an existing user flow, and usage-follow-up features.",
+                pt: "Participei com o time da evolução de uma solução de IA existente, incluindo integrações em Python, preparação de conteúdo para recuperação de informação, integração ao fluxo de uso e recursos de acompanhamento."
             }
         },
         {
@@ -43,8 +43,8 @@
                 pt: "Jan 2024 - Jan 2025"
             },
             description: {
-                en: "Rewrote a critical AngularJS module into a modular React/TypeScript solution with lazy loading, improving time-to-interaction by over 80% and reaching over 80% unit-test coverage. Worked with design system components and BFF integration.",
-                pt: "Reescrevi um módulo crítico em AngularJS para uma solução modular React/TypeScript com lazy loading, melhorando o time-to-interaction em mais de 80% e alcançando mais de 80% de cobertura de testes unitários. Atuei com componentes de design system e integração via BFF."
+                en: "Developed React/TypeScript components and screens, Node.js BFF endpoints, validation and response shaping, and integration between the frontend and APIs.",
+                pt: "Desenvolvi componentes e telas em React/TypeScript, endpoints BFF em Node.js, validações e adaptação de respostas, além da integração entre frontend e APIs."
             }
         },
         {
@@ -80,40 +80,106 @@
     ],
     projects: [
         {
-            title: {
-                en: "Operations Desk Refactor",
-                pt: "Refatoração da Mesa de Operações"
+            "title": {
+                "en": "Room Planner",
+                "pt": "Planejador de Cômodos"
             },
-            description: {
-                en: "Migration of a legacy AngularJS module to React/TypeScript with modular architecture and lazy loading, improving user-perceived performance and maintainability.",
-                pt: "Migração de um módulo legado em AngularJS para React/TypeScript com arquitetura modular e lazy loading, melhorando performance percebida e manutenibilidade."
+            "description": {
+                "en": "3D furniture planning from RoomPlan scans, with room assembly, parametric furniture, and a public demo using a fictional apartment.",
+                "pt": "Planejamento de móveis em 3D a partir de scans do RoomPlan, com montagem de cômodos, móveis paramétricos e demo com apartamento fictício."
             },
-            tags: ["React", "TypeScript", "BFF", "Legacy Migration"],
-            link: null
+            "tags": [
+                "React",
+                "TypeScript",
+                "Three.js",
+                "Vitest"
+            ],
+            "link": "https://github.com/MakenRosa/planejador-comodos"
         },
         {
-            title: {
-                en: "AI Level 1 Support Assistant",
-                pt: "Assistente IA de Suporte Nível 1"
+            "title": {
+                "en": "Apura Brasil",
+                "pt": "Apura Brasil"
             },
-            description: {
-                en: "Designed and delivered an AI support flow that resolves up to 50% of tickets before human escalation, with monthly inference cost below US$15.",
-                pt: "Desenhei e entreguei um fluxo de suporte com IA que resolve até 50% dos chamados antes de escalar para humano, com custo de inferência mensal abaixo de US$15."
+            "description": {
+                "en": "Local election dashboard with official TSE and IBGE data, SVG maps, caching, and tests using stored source snapshots.",
+                "pt": "Painel eleitoral local com dados oficiais do TSE e IBGE, mapas SVG, cache e testes com capturas das fontes."
             },
-            tags: ["LLM", "RAG", "AWS Bedrock", "Pinecone", "Lambda"],
-            link: null
+            "tags": [
+                "React",
+                "TypeScript",
+                "Node.js",
+                "Data"
+            ],
+            "link": "https://github.com/MakenRosa/apura-brasil"
         },
         {
-            title: {
-                en: "Professional Portfolio Hub",
-                pt: "Hub Profissional de Portfólio"
+            "title": {
+                "en": "Fólio",
+                "pt": "Fólio"
             },
-            description: {
-                en: "Centralized portfolio that presents experience, impact metrics, and curated project cases.",
-                pt: "Portfólio centralizado que apresenta experiência, métricas de impacto e casos de projeto curados."
+            "description": {
+                "en": "Windows PDF reader with a local library, duplicate detection, and reading progress. The repository documents validation results and the current CI limitation.",
+                "pt": "Leitor de PDF para Windows com biblioteca local, deduplicação e retomada de leitura. O repositório documenta os testes e a limitação atual da CI."
             },
-            tags: ["Portfolio", "Web", "Branding"],
-            link: "https://makenrosa.github.io/"
+            "tags": [
+                "Tauri",
+                "Rust",
+                "TypeScript",
+                "PDF.js"
+            ],
+            "link": "https://github.com/MakenRosa/folio"
+        },
+        {
+            "title": {
+                "en": "React + BFF Migration",
+                "pt": "Migração React + BFF"
+            },
+            "description": {
+                "en": "General account of frontend development, Node.js BFF endpoints, validation, response shaping, and API integration.",
+                "pt": "Relato geral de desenvolvimento frontend, endpoints BFF em Node.js, validações, adaptação de respostas e integração de APIs."
+            },
+            "tags": [
+                "React",
+                "TypeScript",
+                "Node.js",
+                "BFF"
+            ],
+            "link": "https://github.com/MakenRosa/react-bff-migration-case-study"
+        },
+        {
+            "title": {
+                "en": "AI Support Assistant",
+                "pt": "Assistente de Suporte com IA"
+            },
+            "description": {
+                "en": "Team contribution to the evolution of an existing AI solution, with Python integrations, content preparation for RAG, and usage follow-up.",
+                "pt": "Participação em equipe na evolução de uma solução de IA existente, com integrações em Python, preparação de conteúdo para RAG e acompanhamento de uso."
+            },
+            "tags": [
+                "Python",
+                "RAG",
+                "API Integration",
+                "Case Study"
+            ],
+            "link": "https://github.com/MakenRosa/ai-support-assistant-case-study"
+        },
+        {
+            "title": {
+                "en": "TermoTV",
+                "pt": "TermoTV"
+            },
+            "description": {
+                "en": "Offline word game for LG webOS TVs, with remote-control navigation, deterministic daily selection, and local progress persistence.",
+                "pt": "Jogo de palavras offline para TVs LG webOS, com navegação por controle remoto, seleção diária determinística e progresso local."
+            },
+            "tags": [
+                "JavaScript",
+                "webOS",
+                "Offline",
+                "Tests"
+            ],
+            "link": "https://github.com/MakenRosa/lg-termo"
         }
     ],
     skills: [
