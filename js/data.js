@@ -132,40 +132,6 @@
         },
         {
             "title": {
-                "en": "React + BFF Migration",
-                "pt": "Migração React + BFF"
-            },
-            "description": {
-                "en": "General account of frontend development, Node.js BFF endpoints, validation, response shaping, and API integration.",
-                "pt": "Relato geral de desenvolvimento frontend, endpoints BFF em Node.js, validações, adaptação de respostas e integração de APIs."
-            },
-            "tags": [
-                "React",
-                "TypeScript",
-                "Node.js",
-                "BFF"
-            ],
-            "link": "https://github.com/MakenRosa/react-bff-migration-case-study"
-        },
-        {
-            "title": {
-                "en": "AI Support Assistant",
-                "pt": "Assistente de Suporte com IA"
-            },
-            "description": {
-                "en": "Team contribution to the evolution of an existing AI solution, with Python integrations, content preparation for RAG, and usage follow-up.",
-                "pt": "Participação em equipe na evolução de uma solução de IA existente, com integrações em Python, preparação de conteúdo para RAG e acompanhamento de uso."
-            },
-            "tags": [
-                "Python",
-                "RAG",
-                "API Integration",
-                "Case Study"
-            ],
-            "link": "https://github.com/MakenRosa/ai-support-assistant-case-study"
-        },
-        {
-            "title": {
                 "en": "TermoTV",
                 "pt": "TermoTV"
             },
